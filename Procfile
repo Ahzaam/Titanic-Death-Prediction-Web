@@ -1,1 +1,1 @@
-web: gunicorn titanic-death.wsgi
+web: gunicorn TitanicDePrWeb.wsgi --log-file -
