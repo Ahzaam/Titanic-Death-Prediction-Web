@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)#(nm-rpg1e71m2e^m*9@9#=ofhyw+d10l-jl^16(ik2c*q(92
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'titanic-death.herokuapp.com']
 
 
 # Application definition
