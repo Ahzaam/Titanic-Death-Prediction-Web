@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)#(nm-rpg1e71m2e^m*9@9#=ofhyw+d10l-jl^16(ik2c*q(92'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'titanic-death.herokuapp.com']
 
