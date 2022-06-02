@@ -25,20 +25,32 @@
 
         <tr scope="row">
           <td>{{ i.age }}</td>
-          <td>{{ i.fare }}</td>
-          <td id='gender'>{{ i.gender }}</td>
-          <td>{{ i.pred }}</td>
+          <td>{{ i.fare }} USD</td>
+
+          {% if i.gender == '1' %}
+          <td id='gender'>Male</td>
+          {% else %}
+          <td id='gender'>Female</td>
+          {% endif %}
+
+
+          {% if i.pred == '1' %}
+          <td id='gender'>Survived</td>
+          {% else %}
+          <td id='gender'>Dead</td>
+          {% endif %}
+
         </tr>
 
         {% endfor %}
       </tbody>
     </table>
 
-    <script type="text/javascript" src="{% static 'Ajax/jquery.min.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'Ajax/jquery.min.js' %}"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-          
+
       })
-    </script>
+    </script> -->
   </body>
 </html>
