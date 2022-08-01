@@ -1,4 +1,4 @@
 # TitanicDePrWeb
- Titanic Death Prediction
+ Titanic Death Prediction Sklearn
 
 python, Django, sqlite, js, SKLearn, pandas, numpy, HTML, CSS
